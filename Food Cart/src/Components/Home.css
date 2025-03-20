@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.img{
+    height: auto;
+    max-width: 100%;
+}
+.head{
+    font-family: Roboto;
+    color: #551e53;
+    font-weight: 500;
+}
