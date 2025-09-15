@@ -15,8 +15,8 @@ export const ViewCart = () => {
     setCart(cart.filter((item)=>item.ID !== ID))
   }
   return (
-    <div className='viwe-con'>
-      
+    <div className='d-flex flex-column justify-content-center  align-items-center p-3 mb-3'>
+
         {cart.map((item)=>(
           <div className='viwe-cart' key={item.ID}>
           <div className='cart-img'>

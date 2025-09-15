@@ -29,6 +29,7 @@ export const MenuCard = () => {
       }
     })
   return (
+    
     <div>
       <div className='filter-con'>
         <input type='text' className='input' placeholder='Enter the item by name' onChange={handleFilter} value={filter}/>
@@ -43,7 +44,7 @@ export const MenuCard = () => {
 </select>
 
       </div>
-    <div className='product-con'>
+    <div className='product-con d-flex flex-wrap justify-content-center gap-4'>
         {sortedProducts.map((item)=>(
             <Product key={item.ID} item={item}/>
         )
@@ -52,5 +53,7 @@ export const MenuCard = () => {
     
     </div>
     </div>
+    
   )
+
 }

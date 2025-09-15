@@ -1,9 +1,4 @@
-.viwe-con{
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    margin-top: 70px;
-}
+
 .viwe-cart{
     display: flex;
     gap: 10px;
