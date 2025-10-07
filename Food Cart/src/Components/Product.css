@@ -44,3 +44,14 @@
     border: none;
     border-radius: 3px;
 }
+.code{
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: red;
+}
+.span{
+    font-size: 28px;
+    font-family: Roboto;
+    color: mediumvioletred;
+}
+
